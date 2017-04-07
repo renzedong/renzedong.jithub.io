@@ -1,0 +1,75 @@
+/*css基础样式开始*/
+html,body,div,input,p,span,ul,li,h1,h2,h3,h4,h5,h6,a,img,form,dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:微软雅黑;
+    /*color:#666;
+    background:#fff;*/
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+a:hover{
+    color:#c81623;
+}
+
+.col-red{
+    color:#c81623 !important;
+}
+
+i,s,u,b{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+
+img{
+    display: block;
+    border: 0;
+}
+
+input,textarea,form,button{
+    border:none;
+    margin: 0;
+    padding: 0;
+    outline-style: none;
+    resize:none;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+.clearfix::after,.clearfix::before{
+    content:"";
+    display:block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clearfix{
+    zoom:1;/*为了兼容ie6,7,8*/
+}
+/*css基础样式结束*/
+
+
+
